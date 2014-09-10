@@ -7,7 +7,16 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "PGWeapon.h"
+#import "PGArmor.h"
 
 @interface PGTile : NSObject
+
+@property (strong, nonatomic) NSString *story;
+@property (strong, nonatomic) UIImage *backgroundImage;
+@property (strong, nonatomic) NSString *actionButtonName;
+@property (strong, nonatomic) PGArmor *armor;
+@property (strong, nonatomic) PGWeapon *weapon;
+@property (nonatomic) int healthEffect; 
 
 @end

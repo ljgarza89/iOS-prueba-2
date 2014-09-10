@@ -10,4 +10,7 @@
 
 @interface PGBoss : NSObject
 
+@property (nonatomic) int health;
+@property (nonatomic) int damage; 
+
 @end

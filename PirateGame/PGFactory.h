@@ -7,7 +7,13 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "PGCharacter.h"
+#import "PGBoss.h"
 
 @interface PGFactory : NSObject
+
+-(NSArray *)tiles;
+-(PGCharacter *) charater;
+-(PGBoss *) boss; 
 
 @end
